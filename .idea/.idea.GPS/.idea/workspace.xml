@@ -32,6 +32,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1WJUl2Oht0aC8ec3A5B6rguWHK8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -83,7 +84,16 @@
       <option name="presentableId" value="Default" />
       <updated>1578867338386</updated>
       <workItem from="1578867340130" duration="13675000" />
+      <workItem from="1578883657451" duration="284000" />
     </task>
+    <task id="LOCAL-00001" summary="GPS Project">
+      <created>1578883926977</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578883926977</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,8 +101,21 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+    <MESSAGE value="GPS Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="GPS Project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using DefaultNamespace;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -13,7 +14,8 @@ public class Manager : MonoBehaviour
     [SerializeField] private GameObject imageGreen;
     List<GameObject> userList=new List<GameObject>();
     private GameObject greenImage;
-    
+
+    private DataSaveUserInfo dataSaveUserInfo;
 
     private void Awake(){
         greenImage = Instantiate(imageGreen, panelMap);
@@ -22,7 +24,15 @@ public class Manager : MonoBehaviour
         uiManager.OnSearchButtonClicked += SearchButtonClicked;
         uiManager.OnUpdateButtonClicked += UpdateButtonClicked;
         uiManager.OnViewPanelMap += UpdateButtonClicked;
+        uiManager.AddNewUser += SaveNewUser;
         AddUser();
+        dataSaveUserInfo=new DataSaveUserInfo();
+    }
+
+    private void SaveNewUser(UserInfo userInfo){
+        
+        dataSaveUserInfo.UserInfoList.Add(userInfo);
+        dataSaveUserInfo.Save();
     }
 
     private void AddUser(){

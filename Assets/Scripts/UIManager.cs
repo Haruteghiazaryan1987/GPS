@@ -10,6 +10,7 @@ public class UIManager : MonoBehaviour
     public event Action OnSearchButtonClicked;
     public event Action OnUpdateButtonClicked;
     public event Action OnViewPanelMap;
+    public event Action<UserInfo> AddNewUser;
     
     [Space(5), Header("View System")] 
     [SerializeField] private View panelLoginMenu;
@@ -17,7 +18,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private View panelMap;
     
     private View activeView;
-    
+
     public void Setup(Manager manager){
         this.manager = manager;
         InitsPanel();
@@ -46,6 +47,10 @@ public class UIManager : MonoBehaviour
     }
     public void ViewPanelLoginMenu(){
         ShowViewPanel(panelLoginMenu);
+    }
+
+    public void GetNewUser(UserInfo userInfo){
+        AddNewUser?.Invoke(userInfo);
     }
 
     public void ButtonSearchClick(){

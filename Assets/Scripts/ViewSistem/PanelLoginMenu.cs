@@ -22,8 +22,6 @@ namespace DefaultNamespace
         }
 
         private void CheckPasswordAndEmail(){
-            print(string.Intern(email.text));
-            print(string.Intern(password.text));
             if (string.Intern(email.text).Length != 0 && string.Intern(password.text).Length != 0){
                 OpenPanelMap();
             }

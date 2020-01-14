@@ -16,6 +16,7 @@ public class Manager : MonoBehaviour
     private GameObject greenImage;
 
     private DataSaveUserInfo dataSaveUserInfo;
+    private List<UserInfo> userInfo;
 
     private void Awake(){
         greenImage = Instantiate(imageGreen, panelMap);
@@ -25,12 +26,34 @@ public class Manager : MonoBehaviour
         uiManager.OnUpdateButtonClicked += UpdateButtonClicked;
         uiManager.OnViewPanelMap += UpdateButtonClicked;
         uiManager.AddNewUser += SaveNewUser;
+        uiManager.OnLoginButtonClicked += UserVerification;
         AddUser();
         dataSaveUserInfo=new DataSaveUserInfo();
     }
 
+    private void UserVerification(string email, string password){
+        userInfo=dataSaveUserInfo.Load();
+        if (userInfo != null && CheckForAccountAvailability(email, password, userInfo)){
+            uiManager.ViewPanelMap();
+        }
+        else{
+            uiManager.ViewPanelPersonalInformation();
+        }
+    }
+
+    private bool CheckForAccountAvailability(string email, string password, List<UserInfo> list){
+        bool accountIs = false;
+       
+        for (int i = 0; i < list.Count ; i++){
+            if (list[i].Email == email && list[i].Password == password){
+                accountIs = true;
+                break;
+            }
+        }
+        return accountIs;
+    }
+
     private void SaveNewUser(UserInfo userInfo){
-        
         dataSaveUserInfo.UserInfoList.Add(userInfo);
         dataSaveUserInfo.Save();
     }

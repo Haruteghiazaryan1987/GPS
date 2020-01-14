@@ -36,7 +36,7 @@ namespace DefaultNamespace
         }
 
         protected override void UnSubscribeEvents(){
-            continueButton.onClick.RemoveListener(OpenPanelMap);
+            continueButton.onClick.RemoveAllListeners();
         }
     }
 

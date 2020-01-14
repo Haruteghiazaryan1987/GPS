@@ -24,9 +24,9 @@ namespace DefaultNamespace
         }
 
         protected override void UnSubscribeEvents(){
-            mainMenu.onClick.RemoveListener(OpenPanelMenu);
-            search.onClick.RemoveListener(OnButtonSearch);
-            update.onClick.RemoveListener(OnButtonUpdate);
+            mainMenu.onClick.RemoveAllListeners();
+            search.onClick.RemoveAllListeners();
+            update.onClick.RemoveAllListeners();
         }
     }
 }

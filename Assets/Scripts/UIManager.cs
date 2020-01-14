@@ -11,6 +11,7 @@ public class UIManager : MonoBehaviour
     public event Action OnUpdateButtonClicked;
     public event Action OnViewPanelMap;
     public event Action<UserInfo> AddNewUser;
+    public event Action<string, string> OnLoginButtonClicked; 
     
     [Space(5), Header("View System")] 
     [SerializeField] private View panelLoginMenu;
@@ -58,5 +59,9 @@ public class UIManager : MonoBehaviour
     }
     public void ButtonUpdateClick(){
         OnUpdateButtonClicked?.Invoke();
+    }
+
+    public void LoginButtonClicked(string email,string password){
+        OnLoginButtonClicked?.Invoke(email,password);
     }
 }

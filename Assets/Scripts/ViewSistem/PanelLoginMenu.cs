@@ -17,17 +17,23 @@ namespace DefaultNamespace
         }
 
         protected override void UnSubscribeEvents(){
-            signUp.onClick.RemoveListener(OpenPanelPersonalInformation);
-            login.onClick.RemoveListener(OpenPanelMap);
+            signUp.onClick.RemoveAllListeners();
+            login.onClick.RemoveAllListeners();
         }
 
         private void CheckPasswordAndEmail(){
-            if (string.Intern(email.text).Length != 0 && string.Intern(password.text).Length != 0){
-                OpenPanelMap();
+            string stringEmail = string.Intern(email.text);
+            string stringPassword = string.Intern(password.text);
+            if (stringEmail.Length != 0 && stringPassword.Length != 0){
+               GetEmailAndPassword(stringEmail,stringPassword);
             }
             else{
                 OpenPanelPersonalInformation();
             }
+        }
+
+        private void GetEmailAndPassword(string email,string password){
+            uiManager.LoginButtonClicked(email,password);
         }
     }
 }

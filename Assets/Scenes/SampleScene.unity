@@ -458,7 +458,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &191198752
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1196,7 +1196,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -390, y: 240}
+  m_AnchoredPosition: {x: -390, y: 360}
   m_SizeDelta: {x: 300, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &505714552
@@ -2852,7 +2852,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter Number...
+  m_Text: Enter Password...
 --- !u!222 &1339348760
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3758,8 +3758,8 @@ MonoBehaviour:
   continueButton: {fileID: 102511280}
   firstName: {fileID: 369252887}
   lastName: {fileID: 938610597}
-  phoneNumber: {fileID: 1854160562}
   email: {fileID: 1928152336}
+  password: {fileID: 1854160562}
   day: {fileID: 1641223161}
   month: {fileID: 1719396687}
   year: {fileID: 1601032475}
@@ -4541,7 +4541,7 @@ GameObject:
   - component: {fileID: 1829096287}
   - component: {fileID: 1829096286}
   m_Layer: 5
-  m_Name: TextPhone
+  m_Name: TextPassword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4563,7 +4563,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -390, y: 360}
+  m_AnchoredPosition: {x: -390, y: 240}
   m_SizeDelta: {x: 300, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1829096286
@@ -4597,7 +4597,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Phone
+  m_Text: Password
 --- !u!222 &1829096287
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4773,7 +4773,7 @@ GameObject:
   - component: {fileID: 1854160563}
   - component: {fileID: 1854160562}
   m_Layer: 5
-  m_Name: InputFieldPhone
+  m_Name: InputFieldPassword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4797,7 +4797,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 157, y: 360}
+  m_AnchoredPosition: {x: 157, y: 240}
   m_SizeDelta: {x: 700, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1854160562
@@ -5208,7 +5208,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 157, y: 240}
+  m_AnchoredPosition: {x: 157, y: 360}
   m_SizeDelta: {x: 700, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1928152336

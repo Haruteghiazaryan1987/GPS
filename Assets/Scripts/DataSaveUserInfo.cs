@@ -8,20 +8,34 @@ namespace DefaultNamespace
     public class DataSaveUserInfo
     {
         private string fileName="SaveUser.json";
+        readonly string directoryPath;
+        private string path;
         public List<UserInfo> UserInfoList{ get; private set; }
 
         public DataSaveUserInfo(){
             UserInfoList=new List<UserInfo>();
-        }
-        public void Save(){
-            string directoryPath = Path.Combine(Application.dataPath, "Json");
+            directoryPath = Path.Combine(Application.dataPath, "Json");
+            path=Path.Combine(directoryPath, fileName);
             if (!Directory.Exists(directoryPath)){
                 DirectoryInfo di = Directory.CreateDirectory(directoryPath);
             }
-                
-            string path = Path.Combine(directoryPath, fileName);
+        }
+        public void Save(){
             string json = JsonConvert.SerializeObject(UserInfoList);
-            File.AppendAllText(path,json);
+            File.WriteAllText(path,json);
+        }
+
+        public List<UserInfo> Load(){
+            if (!File.Exists(path)){
+                return null;
+            }
+            string json = File.ReadAllText(path);
+            UserInfoList = JsonConvert.DeserializeObject<List<UserInfo>>(json);
+            if (UserInfoList == null){
+                UserInfoList=new List<UserInfo>();
+            }
+
+            return UserInfoList;
         }
     }
 }

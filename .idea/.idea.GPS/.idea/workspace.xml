@@ -1,29 +1,356 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5116a590-2280-41d6-9969-89272b81fbea" name="Default Changelist" comment="GPS Project">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GPS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/ImageRed.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/ImageRed.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewSistem/PanelLoginMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewSistem/PanelLoginMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewSistem/PanelPersonalInformation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewSistem/PanelPersonalInformation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewSistem/View.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewSistem/View.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+    <list default="true" id="8ebf7949-b48f-4903-a067-71f96e5fb654" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.GPS/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Json/SaveUser.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Json/SaveUser.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JsonDotNet.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JsonDotNet/Assemblies.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JsonDotNet/Assemblies/AOT.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JsonDotNet/Assemblies/AOT/Newtonsoft.Json.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JsonDotNet/Assemblies/AOT/Newtonsoft.Json.XML.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JsonDotNet/Assemblies/AOT/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JsonDotNet/Assemblies/AOT/Newtonsoft.Json.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JsonDotNet/Assemblies/Standalone.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.XML.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JsonDotNet/Assemblies/Windows.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.XML.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JsonDotNet/Documentation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JsonDotNet/Documentation/Json Net for Unity 2.0.1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JsonDotNet/Documentation/Json Net for Unity 2.0.1.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JsonDotNet/JsonDotNet201Source.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JsonDotNet/JsonDotNet201Source.zip.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JsonDotNet/link.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JsonDotNet/link.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/EditorInstance.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/01/01ef782d02bb1994dbe418b69432552b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/01/01ef782d02bb1994dbe418b69432552b.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/06/06314f49bdda26043963578d60a0a7ee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/06/06314f49bdda26043963578d60a0a7ee.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/14/1418141139a6ac443b18cb05c0643a29" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/14/1418141139a6ac443b18cb05c0643a29.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/14/14f21d7a1e53a8c4e87b25526a7eb63c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/14/14f21d7a1e53a8c4e87b25526a7eb63c.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/17/17aef65a15b471f468b5fbeb4ff0c6a1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/17/17aef65a15b471f468b5fbeb4ff0c6a1.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/36/36f7323c55864364d8bb88c736e4bca6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/36/36f7323c55864364d8bb88c736e4bca6.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/4e/4e7d9a07cc3f02a41a575406e7230846" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/4e/4e7d9a07cc3f02a41a575406e7230846.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/57/577d9725f58264943855b8ac185531fe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/57/577d9725f58264943855b8ac185531fe.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/6a/6a3c684705042f345975d924f6983e36" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/6a/6a3c684705042f345975d924f6983e36.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/76/76f828f47ce26cc43991113c6a39dbbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/76/76f828f47ce26cc43991113c6a39dbbf.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/9a/9a6f8c7c1ea72ce46831c5e1b6150d0c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/9a/9a6f8c7c1ea72ce46831c5e1b6150d0c.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/9b/9b6ba260dada0ea4a871a42011f8b87d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/9b/9b6ba260dada0ea4a871a42011f8b87d.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/aa/aadad8ac54f29e44583510294ac5c312" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/aa/aadad8ac54f29e44583510294ac5c312.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/c4/c4ac97c53c31fe549b71b902c011881c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/c4/c4ac97c53c31fe549b71b902c011881c.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/d6/d6807fedb8dcaf04682d2c84f0ab753f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/d6/d6807fedb8dcaf04682d2c84f0ab753f.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/da/da9472770f1a7724b9329063da345353" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/da/da9472770f1a7724b9329063da345353.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/e6/e611cbc25c436de48b1d6aea5076e502" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/e6/e611cbc25c436de48b1d6aea5076e502.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-135835fed24582e439e1b5bfb528bd91" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-135f7b0e517aaf542952238387fb0e02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-1d9390733f869a34dbeeb24fe3245392" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-5d9bb22172ee8ef4ba08769993ad4299" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/Assembly-CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/Assembly-CSharp.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/ExCSS.Unity.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/Microsoft.Win32.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/Newtonsoft.Json.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.AppContext.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Collections.Concurrent.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Collections.NonGeneric.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Collections.Specialized.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Collections.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.ComponentModel.Composition.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.ComponentModel.EventBasedAsync.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.ComponentModel.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.ComponentModel.TypeConverter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.ComponentModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Console.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Data.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Data.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Diagnostics.Contracts.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Diagnostics.Debug.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Diagnostics.FileVersionInfo.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Diagnostics.Process.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Diagnostics.StackTrace.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Diagnostics.TextWriterTraceListener.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Diagnostics.Tools.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Diagnostics.TraceSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Diagnostics.Tracing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Drawing.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Drawing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Dynamic.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Globalization.Calendars.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Globalization.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Globalization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.IO.Compression.FileSystem.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.IO.Compression.ZipFile.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.IO.Compression.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.IO.FileSystem.DriveInfo.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.IO.FileSystem.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.IO.FileSystem.Watcher.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.IO.FileSystem.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.IO.IsolatedStorage.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.IO.MemoryMappedFiles.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.IO.Pipes.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.IO.UnmanagedMemoryStream.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.IO.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Linq.Expressions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Linq.Parallel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Linq.Queryable.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Linq.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Net.Http.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Net.NameResolution.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Net.NetworkInformation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Net.Ping.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Net.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Net.Requests.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Net.Security.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Net.Sockets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Net.WebHeaderCollection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Net.WebSockets.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Net.WebSockets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Net.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Numerics.Vectors.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Numerics.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.ObjectModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Reflection.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Reflection.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Reflection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Resources.Reader.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Resources.ResourceManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Resources.Writer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Runtime.CompilerServices.VisualC.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Runtime.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Runtime.Handles.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Runtime.InteropServices.RuntimeInformation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Runtime.InteropServices.WindowsRuntime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Runtime.InteropServices.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Runtime.Numerics.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Runtime.Serialization.Formatters.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Runtime.Serialization.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Runtime.Serialization.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Runtime.Serialization.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Runtime.Serialization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Security.Claims.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Security.Cryptography.Algorithms.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Security.Cryptography.Csp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Security.Cryptography.Encoding.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Security.Cryptography.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Security.Cryptography.X509Certificates.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Security.Principal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Security.SecureString.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.ServiceModel.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Text.Encoding.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Text.Encoding.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Text.RegularExpressions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Threading.Overlapped.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Threading.Tasks.Parallel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Threading.Tasks.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Threading.Thread.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Threading.ThreadPool.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Threading.Timer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Threading.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Transactions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.ValueTuple.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Xml.Linq.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Xml.ReaderWriter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Xml.Serialization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Xml.XDocument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Xml.XPath.XDocument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Xml.XPath.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Xml.XmlDocument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Xml.XmlSerializer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/System.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/Unity.Cecil.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/Unity.CecilTools.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/Unity.CollabProxy.Editor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/Unity.CollabProxy.Editor.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/Unity.Legacy.NRefactory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/Unity.Rider.Editor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/Unity.Rider.Editor.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/Unity.SerializationLogic.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/Unity.TextMeshPro.Editor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/Unity.TextMeshPro.Editor.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/Unity.TextMeshPro.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/Unity.TextMeshPro.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/Unity.Timeline.Editor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/Unity.Timeline.Editor.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/Unity.Timeline.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/Unity.Timeline.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/Unity.VSCode.Editor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/Unity.VSCode.Editor.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.UI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.UI.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.AIModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.AIModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.ARModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.ARModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.AccessibilityModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.AccessibilityModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.AndroidJNIModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.AndroidJNIModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.AnimationModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.AnimationModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.AssetBundleModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.AssetBundleModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.AudioModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.AudioModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.ClothModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.ClothModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.ClusterInputModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.ClusterInputModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.ClusterRendererModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.ClusterRendererModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.CoreModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.CoreModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.CrashReportingModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.CrashReportingModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.DSPGraphModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.DSPGraphModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.DirectorModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.DirectorModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.FileSystemHttpModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.FileSystemHttpModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.GameCenterModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.GameCenterModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.GridModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.GridModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.HotReloadModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.HotReloadModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.IMGUIModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.IMGUIModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.ImageConversionModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.ImageConversionModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.InputLegacyModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.InputLegacyModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.InputModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.InputModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.JSONSerializeModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.JSONSerializeModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.LocalizationModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.LocalizationModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.ParticleSystemModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.ParticleSystemModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.PerformanceReportingModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.PerformanceReportingModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.Physics2DModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.Physics2DModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.PhysicsModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.PhysicsModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.ProfilerModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.ProfilerModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.ScreenCaptureModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.ScreenCaptureModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.SharedInternalsModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.SharedInternalsModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.SpriteMaskModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.SpriteMaskModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.SpriteShapeModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.SpriteShapeModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.StreamingModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.StreamingModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.SubstanceModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.SubstanceModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.TLSModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.TLSModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.TerrainModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.TerrainModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.TerrainPhysicsModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.TerrainPhysicsModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.TextCoreModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.TextCoreModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.TextRenderingModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.TextRenderingModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.TilemapModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.TilemapModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UI.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UIElementsModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UIElementsModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UIModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UIModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UNETModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UNETModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UmbraModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UmbraModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UnityAnalyticsModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UnityAnalyticsModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UnityConnectModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UnityConnectModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UnityTestProtocolModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UnityTestProtocolModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UnityWebRequestAssetBundleModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UnityWebRequestAssetBundleModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UnityWebRequestAudioModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UnityWebRequestAudioModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UnityWebRequestModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UnityWebRequestModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UnityWebRequestTextureModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UnityWebRequestTextureModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UnityWebRequestWWWModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UnityWebRequestWWWModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.VFXModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.VFXModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.VRModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.VRModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.VehiclesModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.VehiclesModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.VideoModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.VideoModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.WebGLModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.WindModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.WindModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.XRModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.XRModule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/mscorlib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/bin/Debug/netstandard.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/APIUpdater/project-dependencies.graph" beforeDir="false" afterPath="$PROJECT_DIR$/Library/APIUpdater/project-dependencies.graph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/b96004-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/b96004-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/4220ea-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/4220ea-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/0d/0ddc03428aaf5e243863f0c94550ddd9" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/0d/0ddc03428aaf5e243863f0c94550ddd9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/58/585bb913de744ff98ee0ad617ecf704e" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/58/585bb913de744ff98ee0ad617ecf704e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/78/78206eb1a8de31e4883dc881485c4df8" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/78/78206eb1a8de31e4883dc881485c4df8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/c8/c8edd54265814fa1b258e085bbb9f57a" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/c8/c8edd54265814fa1b258e085bbb9f57a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/fe/fe2afd2bff30d484fb840cd19db84be7" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/fe/fe2afd2bff30d484fb840cd19db84be7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,13 +367,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataSaveUserInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewSistem/PanelLoginMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewSistem/PanelPersonalInformation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewSistem/PanelMap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewSistem/View.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataSaveUserInfo.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">

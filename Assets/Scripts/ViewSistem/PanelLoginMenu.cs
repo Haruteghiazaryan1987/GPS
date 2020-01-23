@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace DefaultNamespace
@@ -10,10 +11,13 @@ namespace DefaultNamespace
         [SerializeField] private Button signUp;
         [SerializeField] private InputField email;
         [SerializeField] private InputField password;
+        private List<InputField> inputFields;
 
         protected override void SubscribeEvents(){
             signUp.onClick.AddListener(OpenPanelPersonalInformation);
             login.onClick.AddListener(CheckPasswordAndEmail);
+            inputFields=new List<InputField>(){email,password};
+            ResetInputField(inputFields);
         }
 
         protected override void UnSubscribeEvents(){

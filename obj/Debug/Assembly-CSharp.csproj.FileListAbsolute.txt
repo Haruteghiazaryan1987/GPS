@@ -529,7 +529,6 @@ C:\Users\Harut\Desktop\Clone\GPS\Temp\bin\Debug\UnityEngine.XRModule.xml
 C:\Users\Harut\Desktop\Clone\GPS\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
 C:\Users\Harut\Desktop\Clone\GPS\Temp\bin\Debug\UnityEngine.ClusterRendererModule.xml
 C:\Users\Harut\Desktop\Clone\GPS\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-C:\Users\Harut\Desktop\Clone\GPS\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
 C:\Users\Harut\Desktop\Clone\GPS\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Users\Harut\Desktop\Clone\GPS\obj\Debug\Assembly-CSharp.dll
 C:\Users\Harut\Desktop\Clone\GPS\obj\Debug\Assembly-CSharp.pdb

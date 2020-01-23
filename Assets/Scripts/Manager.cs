@@ -12,7 +12,7 @@ public class Manager : MonoBehaviour
     [SerializeField] private RectTransform myPosition;
     [SerializeField] private GameObject imageRed;
     [SerializeField] private GameObject imageGreen;
-    List<GameObject> userList=new List<GameObject>();
+    List<UserInfo> userList=new List<UserInfo>();
     private GameObject greenImage;
 
     private DataSaveUserInfo dataSaveUserInfo;
@@ -27,13 +27,14 @@ public class Manager : MonoBehaviour
         uiManager.OnViewPanelMap += UpdateButtonClicked;
         uiManager.AddNewUser += SaveNewUser;
         uiManager.OnLoginButtonClicked += UserVerification;
-        AddUser();
+        
         dataSaveUserInfo=new DataSaveUserInfo();
     }
 
     private void UserVerification(string email, string password){
         userInfo=dataSaveUserInfo.Load();
         if (userInfo != null && CheckForAccountAvailability(email, password, userInfo)){
+            AddUser();
             uiManager.ViewPanelMap();
         }
         else{
@@ -59,27 +60,27 @@ public class Manager : MonoBehaviour
     }
 
     private void AddUser(){
-        for (int i = 0; i < 4; i++){
-            GameObject go=Instantiate(imageRed, panelMap);
-            go.transform.localPosition=new Vector2(50 * Random.Range(-10, 11),50 * Random.Range(-15, 19));
-            userList.Add(go);
+        for (int i = userInfo.Count-4; i < userInfo.Count; i++){
+            UserInfo user=new UserInfo(userInfo[i].Email,userInfo[i].Password,Instantiate(imageRed,panelMap));
+            user.UserImage.transform.localPosition=new Vector2(50 * Random.Range(-10, 11),50 * Random.Range(-15, 19));
+            userList.Add(user);
         }
     }
 
     private void UpdateButtonClicked(){
         greenImage.SetActive(false);
-        userList[0].SetActive(true);
+        userList[0].UserImage.SetActive(true);
         for (int i = 0; i < userList.Count; i++){
-            userList[i].transform.localPosition=new Vector2(50 * Random.Range(-10, 11),50 * Random.Range(-15, 19));
+            userList[i].UserImage.transform.localPosition=new Vector2(50 * Random.Range(-10, 11),50 * Random.Range(-15, 19));
         }
     }
 
     private void SearchButtonClicked(){
-        var sortedList = userList.OrderBy(x => (x.transform.localPosition - myPosition.localPosition).magnitude)
+        var sortedList = userList.OrderBy(x => (x.UserImage.transform.localPosition - myPosition.localPosition).magnitude)
             .ToList();
         userList = sortedList;
         greenImage.SetActive(true);
-        greenImage.transform.localPosition = userList[0].transform.localPosition;
-        userList[0].gameObject.SetActive(false);
+        greenImage.transform.localPosition = userList[0].UserImage.transform.localPosition;
+        userList[0].UserImage.gameObject.SetActive(false);
     }
 }

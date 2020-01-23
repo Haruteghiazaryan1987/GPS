@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace DefaultNamespace
@@ -10,14 +11,15 @@ namespace DefaultNamespace
         [SerializeField] private InputField lastName;
         [SerializeField] private InputField email;
         [SerializeField] private InputField password;
-        [SerializeField] private InputField day;
-        [SerializeField] private InputField month;
-        [SerializeField] private InputField year;
+        [SerializeField] private InputField age;
+        private List<InputField> inputFields;
 
         private UserInfo userInfo;
 
         protected override void SubscribeEvents(){
             continueButton.onClick.AddListener(AddInputField);
+            inputFields=new List<InputField>(){firstName,lastName,email,password,age};
+            ResetInputField(inputFields);
         }
 
         private void AddInputField(){
@@ -42,12 +44,14 @@ namespace DefaultNamespace
 
     public struct UserInfo
     {
+        public GameObject UserImage{ get; set; }
         public string Email{ get;  set; }
         public string Password{ get;  set; }
 
-        public UserInfo(string email, string password){
+        public UserInfo(string email, string password,GameObject image=null){
             Email = email;
             Password = password;
+            UserImage = image;
         }
     }
 }

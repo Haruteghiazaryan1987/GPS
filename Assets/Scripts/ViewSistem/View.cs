@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
 
 namespace DefaultNamespace
 {
@@ -38,6 +40,13 @@ namespace DefaultNamespace
 
         protected void OpenPanelMenu(){
             uiManager.ViewPanelLoginMenu();
+        }
+        protected void ResetInputField( List<InputField> inputFields){
+            for (int i = 0; i < inputFields.Count; i++){
+                if (string.Intern(inputFields[i].text).Length != 0){
+                    inputFields[i].text = "";
+                }
+            }
         }
     }
 }

@@ -17,6 +17,7 @@ public class Manager : MonoBehaviour
 
     private DataSaveUserInfo dataSaveUserInfo;
     private List<UserInfo> userInfo;
+    private bool userAdded;
 
     private void Awake(){
         greenImage = Instantiate(imageGreen, panelMap);
@@ -60,6 +61,7 @@ public class Manager : MonoBehaviour
     }
 
     private void AddUser(){
+        userAdded = true;
         for (int i = userInfo.Count-4; i < userInfo.Count; i++){
             UserInfo user=new UserInfo(userInfo[i].Email,userInfo[i].Password,Instantiate(imageRed,panelMap));
             user.UserImage.transform.localPosition=new Vector2(50 * Random.Range(-10, 11),50 * Random.Range(-15, 19));
@@ -68,6 +70,9 @@ public class Manager : MonoBehaviour
     }
 
     private void UpdateButtonClicked(){
+        if (!userAdded){
+            AddUser();
+        }
         greenImage.SetActive(false);
         userList[0].UserImage.SetActive(true);
         for (int i = 0; i < userList.Count; i++){
